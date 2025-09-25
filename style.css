@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.one{
+    background-color: #1F2937;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+
+.header-left{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right{
+    display: flex;
+    gap:20px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.one-body{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.one-body-left{
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.one-top-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.one-bottom-text{
+    color: #E5E7EB;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.one-button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding:5px 10px;
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.two-top{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.two-bottom{
+    display: flex;
+    gap:10px;
+    margin: auto;
+}
+
+.two-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    color: grey;
+    text-align: center;
+    gap:5px
+}
+
+.three{
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.three-top{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.three-bottom{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.four{
+    padding: 100px;
+}
+
+.subfour{
+    background-color: #3882f6;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.four-top-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.four-bottom-text{
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.four-button{
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.five{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
