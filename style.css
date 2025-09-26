@@ -186,7 +186,11 @@ body{
 
 .three{
     padding: 50px;
-    background-color: blue;
+    background-color: #E5E7EB;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .three-top{
@@ -202,6 +206,14 @@ body{
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+.three-bottom-text{
+    color: #1F2937;
+    margin: 0px;
+    font-size: 25px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .four{
@@ -236,17 +248,44 @@ body{
     font-weight: bold;
 }
 
-.five{
+.five{    
     background-color: #1F2937;
-    color: #E5E7EB;
-    padding: 50px 0;
     display: flex;
-    justify-content: center;
-}
-
-@media (max-width: 800px) {
-  .two-bottom {
     flex-direction: column;
-  }
+    align-items: center;
+    padding: 10px 0;
+    padding-bottom: 50px;
+    color: #E5E7EB;
+
 }
 
+.five-top{
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.github-button{
+    background-color: black;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding:5px 10px;
+    margin-top:10px;
+    border-radius: 10px;  
+    width: 150px; 
+    margin-bottom: 20px;
+}
+
+.five-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.five-bottom-left, .five-bottom-right{
+    width: 50%;
+    font-size: 25px;
+}
