@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+button{
+    cursor: pointer;
+}
+
 .one{
     background-color: #1F2937;
 }
@@ -69,15 +73,10 @@ body{
     font-size: 18px;
 }
 
-.one-button{
-    background-color: #3882f6;
-    color: #F9FAF8;
-    font-size: 20px;
-    padding:5px 10px;
-    margin-top:10px;
-    border-radius: 10px;
+.button-container{
+    display: flex;
+    gap: 20px;
 }
-
 .pic {
     padding: 70px;
     padding-top: 30px;
@@ -172,7 +171,7 @@ body{
 .two-top-text{
     color: #1F2937;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 600;
     margin: 0;
     padding-left: 40px;
     padding-top: 30px;
@@ -256,7 +255,6 @@ body{
     padding: 10px 0;
     padding-bottom: 50px;
     color: #E5E7EB;
-
 }
 
 .five-top{
@@ -288,4 +286,45 @@ body{
 .five-bottom-left, .five-bottom-right{
     width: 50%;
     font-size: 25px;
+}
+
+.six{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    padding-bottom: 50px;
+    color: #1F2937;
+}
+
+.six-top{
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px 0;
+    padding-bottom: 0;
+}
+
+.linkedin-button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding:5px 10px;
+    margin-top:10px;
+    border-radius: 10px;
+    width: 150px; 
+    margin-bottom: 20px;
+}
+
+.six-bottom-text, .email-text{
+    font-size: 18px;
+}
+
+.six-bottom-text{
+    font-weight: 600;
+}
+
+.email-text{
+    margin-top: 0;
 }
