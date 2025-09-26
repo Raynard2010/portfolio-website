@@ -125,11 +125,11 @@ button{
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 1rem;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
 }
 
 .slider::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    display: none;
 }
 
 
@@ -165,7 +165,6 @@ button{
 
 .two-body-right{
     padding-left: 50px;
-    /* word-wrap: break-word; */
 }
 
 .two-top-text{
@@ -337,4 +336,150 @@ button{
     align-items: center;
     padding: 10px 0;
     color: #E5E7EB;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px 20px;
+  }
+
+  img, video {
+  max-width: 100%;
+  height: auto;
+  }
+
+  .one-body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .one-body-right {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .two-bottom {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .two-body-right {
+    padding: 0;
+    text-align: center;
+  }
+
+  .three-bottom-text {
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .five-bottom {
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 20px;
+  }
+
+  .five-bottom-left, 
+  .five-bottom-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img, video {
+  max-width: 100%;
+  height: auto;
+  }
+
+  .header-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .one-top-text {
+    font-size: 28px;
+  }
+
+  .one-bottom-text {
+    font-size: 16px;
+  }
+
+  .two-top {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .two-top-text {
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .two-bottom-text {
+    font-size: 16px;
+  }
+
+  .three-top {
+    font-size: 22px;
+    padding: 0 20px;
+  }
+
+  .three-bottom-text {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .four {
+    padding: 30px 15px;
+  }
+
+  .subfour {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .five-top {
+    font-size: 24px;
+  }
+
+  .five-bottom {
+    padding: 0 20px;
+  }
+
+  .five-bottom-left, 
+  .five-bottom-right {
+    font-size: 16px;
+  }
+
+  .six-top {
+    font-size: 24px;
+  }
+
+  .six-bottom-text {
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .email-text {
+    font-size: 14px;
+    word-break: break-word;
+  }
 }
